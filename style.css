@@ -74,6 +74,7 @@ body {
   .digit {
     font-size: 16px;
     font-weight: bold;
+    font-family: 'Poppins';
     color: #000;
     position: absolute;
   }
@@ -88,4 +89,5 @@ body {
     font-size: 16px;
     font-family: Poppins;
     margin-top: 30px;
+    font-family: 'Poppins';
   }
