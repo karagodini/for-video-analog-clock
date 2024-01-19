@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
   --white-color: #fff;
 }
@@ -6,6 +8,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
     background-color: #ccc;
@@ -73,4 +76,16 @@ body {
     font-weight: bold;
     color: #000;
     position: absolute;
+  }
+
+  #digital-clock {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #date-info {
+    font-size: 16px;
+    font-family: Poppins;
+    margin-top: 30px;
   }
